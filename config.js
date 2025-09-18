@@ -36,7 +36,7 @@ window.CONFIG = {
 
   // Crisp 配置
   crisp: {
-    id: "cf6acc26-fc09-4653-833c-7452bb71e19c", // Crisp ID
+    id: "030280f0-4361-42d5-999e-4f2a59a13709", // Crisp ID
     enable: true, // 是否启用 Crisp 聊天窗口
   },
 
