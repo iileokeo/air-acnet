@@ -2,7 +2,7 @@
   "auth": {
     "features": {
       "first": {
-        "description": "AirBus 采用高速全中转专线连接，保证网络稳定、高速、毫秒级的响应速度",
+        "description": "Air-ACnet 采用高速全中转专线连接，保证网络稳定、高速、毫秒级的响应速度",
         "title": "高速全中转专线连接"
       },
       "second": {
@@ -19,7 +19,7 @@
       "LoggedIn": "已登录",
       "loginPlease": "请先完成登录"
     },
-    "title": "从这开始连接世界 👏\nAirBus - 畅享全球网络加速"
+    "title": "从这开始连接世界 👏\nAir-ACnet - 畅享全球网络加速"
   },
   "bill": {
     "balance": "余额支付",
@@ -36,7 +36,7 @@
   },
   "client": {
     "android": {
-      "description": "华为 / 小米 / OPPO 等安卓全系列",
+      "description": "三星 / 小米 / OPPO 等安卓全系列",
       "title": "Android 客户端"
     },
     "btn": "立即下载",
@@ -91,7 +91,7 @@
     "unit": "元"
   },
   "footer": {
-    "copyRight": "© 2025 AirBuddy All Rights Reserved",
+    "copyRight": "© 2025 Air-Acnet All Rights Reserved",
     "links": {
       "1": {
         "text": "备用站点",
@@ -99,11 +99,11 @@
       },
       "2": {
         "text": "加入 Telegram 频道",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/"
       },
       "3": {
         "text": "联系 Telegram 客服",
-        "url": "https://t.me/themebuddy"
+        "url": "https://t.me/"
       }
     }
   },
