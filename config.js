@@ -89,7 +89,7 @@ window.CONFIG = {
   // 全局用户配置
   user: {
     adminAvatar:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Admin-Image.3nrslt4k8f.webp", // 管理员头像，工单对话中显示的管理回复头像
+      "./rocket/Admin-Image.3nrslt4k8f.webp", // 管理员头像，工单对话中显示的管理回复头像
     userAvatar:
       "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Avatar-Image.pfiiawar3.webp", // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
     // 用户阈值配置，用户阈值会影响到首页的欢迎卡片和公告模块中界定当前用户属于什么状态，用户状态一共有如下几种：
@@ -113,14 +113,14 @@ window.CONFIG = {
   home: {
     poster: {
       earth_texture:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/8k_earth_nightmap.3yemews86x.webp", // 地球纹理图片
+        "./rocket/8k_earth_nightmap.3yemews86x.webp", // 地球纹理图片
       universe_background:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/space-unsplash.6m42pbctq4.webp", // 宇宙背景图片
+        "./rocket/space-unsplash.6m42pbctq4.webp", // 宇宙背景图片
       feature_number: 5, // 轨道特性展示数量，最大 6 个，特性文案内容请在国际化配置中修改
     },
     matrix: {
       bgImg:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/App-Matrix-1025hx.8ojvddbere.webp",
+        "./rocket/App-Matrix-1025hx.8ojvddbere.webp",
     },
     shopPlan: {
       cycle: true,
@@ -231,22 +231,22 @@ window.CONFIG = {
       {
         key: "first",
         image:
-          "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-cloud-upload.4n7vyz7bf1.webp",
+          "./rocket/3d-element-cloud-upload.4n7vyz7bf1.webp",
       },
       {
         key: "second",
         image:
-          "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-ai.8hgnhxp9c8.webp",
+          "./rocket/3d-element-ai.8hgnhxp9c8.webp",
       },
       {
         key: "third",
         image:
-          "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-media.1vytqwl7cz.webp",
+          "./rocket/3d-element-media.1vytqwl7cz.webp",
       },
     ],
     backgroundMode: "img", // 背景模式: earth 地球动画，img 图片，none 无背景；earth 地球动画请配置 home.poster.xx
     backgroundImage:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Fluid-gradient-background.1e8s2bjtsj.webp", // 背景图片，如果背景模式为 img，则使用此图片
+      "./rocket/Fluid-gradient-background.1e8s2bjtsj.webp", // 背景图片，如果背景模式为 img，则使用此图片
 
     inviteCodeEdit: true, // 是否允许用户修改邀请码, true 可以，false 不可以
     inviteDisplay: false, // 是否显示邀请码输入框，true 显示，false 不显示
