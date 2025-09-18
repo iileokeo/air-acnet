@@ -47,7 +47,7 @@ window.CONFIG = {
       skeleton: true, // 是否显示骨架屏
       minimum: 1200, // 骨架屏最低显示时间，单位毫秒
     },
-    redirect: "ShopQuick", // 访问根路径时重定向的页面，可选值：'Home' | 'Dashboard' | 'ShopQuick'，如果是 Dashboard 但用户未登录将重定向到登录注册页
+    redirect: "Home", // 访问根路径时重定向的页面，可选值：'Home' | 'Dashboard' | 'ShopQuick'，如果是 Dashboard 但用户未登录将重定向到登录注册页
     inviteCode: null, // 默认邀请码，用户注册时会使用此邀请码，适用于给 aff 或者推广渠道开不同站点，如果不需要可以设置为 null，设置以后，将屏蔽用户输入和路由上的邀请码。推荐同步关闭注册页的 inviteDisplay 配置
 
     // 页面配置，控制显示/隐藏页面，同时将控制 siderbar / topbar 的路由菜单
