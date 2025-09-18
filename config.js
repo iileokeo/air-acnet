@@ -11,7 +11,7 @@
 // @ts-ignore
 window.CONFIG = {
   // 通用配置
-  logo: "./Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp", // 网站logo
+  logo: "./rocket/logo.png", // 网站logo
   title: "Air-ACnet", // 网站标题.
 
   // 主题配置
