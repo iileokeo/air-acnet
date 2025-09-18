@@ -406,7 +406,7 @@
     "reset": "忘记密码？",
     "submit": "登录",
     "success": "登录成功",
-    "title": "登录 AirBus"
+    "title": "登录 Air-ACnet"
   },
   "node": {
     "banner": {
@@ -614,7 +614,7 @@
     },
     "submit": "注册",
     "success": "注册成功",
-    "title": "注册 AirBus"
+    "title": "注册 Air-ACnet"
   },
   "reset": {
     "changePwdByEmail": "修改密码（邮箱验证）",
