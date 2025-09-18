@@ -12,7 +12,7 @@
 window.CONFIG = {
   // 通用配置
   logo: "https://github.com/dc8683/picx-images-hosting/raw/master/Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp", // 网站logo
-  title: "AirRocket", // 网站标题.
+  title: "Air-ACnet", // 网站标题.
 
   // 主题配置
   theme: {
