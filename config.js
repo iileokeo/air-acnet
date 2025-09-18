@@ -450,7 +450,7 @@ window.CONFIG = {
     },
     shadowrocket: {
       display: true, // 是否显示 Shadowrocket
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Shadowrocket.8z6ptl1j67.webp",
+      icon: "./rocket/Shadowrocket.8z6ptl1j67.webp",
     },
     singbox: {
       display: true, // 是否显示 Singbox
