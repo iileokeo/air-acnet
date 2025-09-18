@@ -46,17 +46,17 @@
     },
     "ios": {
       "description": "iPhone / iPad 全系列",
-      "title": "iOS 客户端"
+      "title": "iOS 客户端（待公布）"
     },
     "knowledgeAll": "全部教程",
     "knowledgePage": "客户端教程",
     "mac": {
       "description": "Intel / Apple Silicon 全系列",
-      "title": "MacOS 客户端"
+      "title": "MacOS 客户端（待公布）"
     },
     "windows": {
       "description": "32 / 64 位全系列",
-      "title": "Windows 客户端"
+      "title": "Windows 客户端（待公布）"
     }
   },
   "coupon": {
