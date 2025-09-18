@@ -11,7 +11,7 @@
 // @ts-ignore
 window.CONFIG = {
   // 通用配置
-  logo: "https://github.com/dc8683/picx-images-hosting/raw/master/Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp", // 网站logo
+  logo: "./Air-Rocket-T-LOGO@1x.2vewwvqwbf.webp", // 网站logo
   title: "Air-ACnet", // 网站标题.
 
   // 主题配置
@@ -91,7 +91,7 @@ window.CONFIG = {
     adminAvatar:
       "./rocket/Admin-Image.3nrslt4k8f.webp", // 管理员头像，工单对话中显示的管理回复头像
     userAvatar:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Avatar-Image.pfiiawar3.webp", // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
+      "./rocket/Avatar-Image.pfiiawar3.webp", // 用户头像，适用于全局所有页面中显示的用户头像，即工单对话中显示的用户头像
     // 用户阈值配置，用户阈值会影响到首页的欢迎卡片和公告模块中界定当前用户属于什么状态，用户状态一共有如下几种：
     // - 新用户：可以在下面 newUserTime 设定阈值，如设置 48，则代表注册时间 48 小时都还属于新用户
     // - 从未订阅过的用户：既不是新用户、也从来没买过的订阅套餐的用户
@@ -286,9 +286,9 @@ window.CONFIG = {
     //  Home 页面中的客户端 mockup 图片
     mockup: {
       macbook:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/New-MacBook-Pro-16-Inch-Mockup.175k6vxoc2.webp",
+        "./rocket/New-MacBook-Pro-16-Inch-Mockup.175k6vxoc2.webp",
       iphone:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/iPhone-14-Pro-Max---Mockup.3rbejixmy9.webp",
+        "./rocket/iPhone-14-Pro-Max---Mockup.3rbejixmy9.webp",
     },
   },
 
@@ -317,7 +317,7 @@ window.CONFIG = {
     customNodeBanner: {
       display: true,
       elementImg:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-server.lvwkl381q.webp",
+        "./rocket/3d-element-server.lvwkl381q.webp",
     },
     ssLink: false, // 是否显示 ss 订阅链接复制打开按钮
   },
@@ -325,7 +325,7 @@ window.CONFIG = {
   // 订单配置
   order: {
     payPendingImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-order.2vex42nyi6.webp",
+      "./rocket/3d-element-order.2vex42nyi6.webp",
     overrideConfirm: true, // 用户在变更套餐时是否要弹窗二次确认
     url: {
       pc: true, // 是否在 PC 端显示支付链接，如果为 true，则会新窗口自动打开链接
@@ -342,7 +342,7 @@ window.CONFIG = {
   invite: {
     bannerDisplay: false, // 是否显示首页的邀请 banner
     bannerImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-cash.26lnk20fhk.webp",
+      "./rocket/3d-element-cash.26lnk20fhk.webp",
     inviteCodeUrlPrefix: window.location.origin, // 邀请码链接前缀，默认是当前网站的域名，可以填入其他域名，例如 https://example.com
     inviteTargetPage: "quick", // 邀请码链接跳转的页面，可选值：'quick' | 'register'，'quick' 为免登购买页面， 'register' 为注册页面
   },
@@ -350,7 +350,7 @@ window.CONFIG = {
   // 工单配置
   ticket: {
     elementImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-hand-pen.9gwqv3s0h3.webp",
+      "./rocket/3d-element-hand-pen.9gwqv3s0h3.webp",
   },
 
   // 公告配置
@@ -429,15 +429,15 @@ window.CONFIG = {
      */
     element: {
       bagDrawerText:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Super-Speed-Kill-Text-Element.7w6zvmetmy.webp",
+        "./rocket/Super-Speed-Kill-Text-Element.7w6zvmetmy.webp",
       bagDrawerBg:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Red-envelope-gold-coin-elements.1vytqw57zb.webp",
+        "./rocket/Red-envelope-gold-coin-elements.1vytqw57zb.webp",
       blackGift:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/black-gift-element.m8y9ssdi.webp",
+        "./rocket/black-gift-element.m8y9ssdi.webp",
       cashBox:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Cash-Box-Element.4n7vyyrc0y.webp",
+        "./rocket/Cash-Box-Element.4n7vyyrc0y.webp",
       vipCard:
-        "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/hand-vip-card-element.9dd4xdiydo.webp",
+        "./rocket/hand-vip-card-element.9dd4xdiydo.webp",
     },
   },
 
@@ -446,7 +446,7 @@ window.CONFIG = {
     display: true, // 是否显示订阅模块, 首页 / 账号设置页面都会有此模块
     clash: {
       display: true, // 是否显示 Clash
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Clash.9gwri62wr1.webp",
+      icon: "./rocket/Clash.9gwri62wr1.webp",
     },
     shadowrocket: {
       display: true, // 是否显示 Shadowrocket
@@ -454,19 +454,19 @@ window.CONFIG = {
     },
     singbox: {
       display: true, // 是否显示 Singbox
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Singbox.espc7ryvj.svg",
+      icon: "./rocket/Singbox.espc7ryvj.svg",
     },
     surfboard: {
       display: true, // 是否显示 Surfboard
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Surfboard.8vn3vv8ggg.svg",
+      icon: "./rocket/Surfboard.8vn3vv8ggg.svg",
     },
     surge: {
       display: true, // 是否显示 Surge
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Surge.8s3hy5fdqo.svg",
+      icon: "./rocket/Surge.8s3hy5fdqo.svg",
     },
     quantumult: {
       display: true, // 是否显示 Quantumult
-      icon: "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Quantumult.102cyimf66.webp",
+      icon: "./rocket/Quantumult.102cyimf66.webp",
     },
     subscribeLink: true, // 是否显示订阅链接
   },
@@ -486,13 +486,13 @@ window.CONFIG = {
   giftCard: {
     switch: false, // 是否启用礼品卡功能，请确保后端服务支持此功能
     elementImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/3d-element-gift.lvwkl3813.webp",
+      "./rocket/3d-element-gift.lvwkl3813.webp",
   },
 
   // 100% 优惠券兑换配置，建议和礼品卡不要同时使用，容易造成歧义，如果您的面板是 v2board / xboard，没有礼品卡功能，建议使用这个
   couponExchange: {
     elementImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/Gift3D.6bh9l0f6qj.webp",
+      "./rocket/Gift3D.6bh9l0f6qj.webp",
   },
 
   // 新用户/未购买订阅用户的欢迎卡片
@@ -531,16 +531,16 @@ window.CONFIG = {
     ],
     // element 的图片资源
     elementImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/game-machine.3rbf9panfp.webp",
+      "./rocket/game-machine.3rbf9panfp.webp",
     // 背景模式，'blurImg' | 'none' , 'blurImg' 为以 elementImg 来模糊背景，none 则不处理
     backgroundMode: "none",
   },
 
   quick: {
     elementImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/rocket/earth_purple.70akxwkmcb.webp", // 元素图片
+      "./rocket/earth_purple.70akxwkmcb.webp", // 元素图片
     backgroundImg:
-      "https://github.com/dc8683/picx-images-hosting/raw/master/docs/pink-purple-gardient.58hm30cjx7.webp", // 背景图片
+      "./docs/pink-purple-gardient.58hm30cjx7.webp", // 背景图片
     planTypeSwitch: true, // 是否显示周期/按量套餐切换按钮，如果不显示，则显示全部套餐
     planExclude: [], // 套餐排除列表，ID 数组，排除后不显示在快速购买页面
   
