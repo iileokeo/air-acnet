@@ -371,7 +371,7 @@ window.CONFIG = {
     },
     // 特色公告配置
     special: {
-      display: true,
+      display: false,
       tagKey: "特色公告", // 特色公告标签
       // 特色公告预设，可以将对象传入，优先级：公告接口数据 > 预设数据
       presets: [
