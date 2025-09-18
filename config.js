@@ -26,11 +26,11 @@ window.CONFIG = {
     // 支持的语言列表，可按需增加和删减，key 是显示名称，value 是对应 JSON 语言包的文件名
     support: {
       简体中文: "zh-CN",
-      繁體中文: "zh-HK",
-      English: "en",
-      日本語: "jp",
-      Deutsch: "de",
-      한국어: "kr",
+#      繁體中文: "zh-HK",
+#     English: "en",
+#      日本語: "jp",
+#     Deutsch: "de",
+#     한국어: "kr",
     },
   },
 
