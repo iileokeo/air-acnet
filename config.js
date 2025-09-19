@@ -319,7 +319,7 @@ window.CONFIG = {
       elementImg:
         "./rocket/3d-element-server.lvwkl381q.webp",
     },
-    ssLink: true, // 是否显示 ss 订阅链接复制打开按钮
+    ssLink: false, // 是否显示 ss 订阅链接复制打开按钮
   },
 
   // 订单配置
