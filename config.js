@@ -497,39 +497,45 @@ window.CONFIG = {
 
   // 新用户/未购买订阅用户的欢迎卡片
 welcomeCard: {
-        // 组件类型: 'element' | 'wallet' | 'traffic' | 'plan'
-        // element: 元素组件，需要配置元素图片
-        // wallet: 钱包组件，会展示佣金、余额和充值按钮
-        // traffic: 流量统计组件，会展示流量使用详情
-        // plan: 推荐套餐组件，会展示推荐套餐
-        newUser: 'plan', // 新用户显示什么组件
-        unsubscribedUser: 'plan', // 从未订阅过的用户显示什么组件
-        expiredUser: 'plan', // 订阅已过期的用户显示什么组件
-        trafficEmptyUser: 'traffic', // 流量已用完的用户显示什么组件
-        expirySoonUser: 'plan', // 订阅快到期的用户显示什么组件
-        trafficLowUser: 'traffic', // 流量快用完的用户显示什么组件
-        subscriptionUser: 'wallet', // 订阅中的正常用户显示什么组件
-        // plan 组件推荐套餐配置，前提是上面配置中对应的用户状态下的组件是 plan
-        // 每一个 ID 都会影响按钮点击最终跳转的套餐下单页，ID 为 0 则是他购买过的套餐
-        planId: {
-            newUser: 10, // 新用户的推荐套餐 ID
-            unsubscribedUser: 10, // 从未订阅过的用户推荐套餐 ID
-            expiredUser: 10, // 订阅已过期的用户推荐套餐 ID
-            trafficEmptyUser: 10, // 流量已用完的用户推荐套餐 ID
-            expirySoonUser: 10, // 订阅快到期的用户推荐套餐 ID
-            trafficLowUser: 10, // 流量快用完的用户推荐套餐 ID
-            subscriptionUser: 10, // 订阅中的正常用户推荐套餐 ID
-        },
-        // 购买/续费按钮什么用户状态下显示，可填入多个，例如流量快用完和订阅快到期的用户都显示购买按钮，可以填入 ['trafficLowUser', 'expirySoonUser']
-        // 可选值有  "newUser" | "expiredUser" | "trafficEmptyUser" | "expirySoonUser" | "trafficLowUser" | "subscriptionUser" | "unsubscribedUser"
-        // Tips: 如果对应的用户状态标签你设置了 plan 组件，那么就不建议你在这里设置购买按钮了，因为 plan 组件本身就有购买按钮
-        buyButton: ['newUser', 'unsubscribedUser', 'expiredUser', 'trafficEmptyUser', 'expirySoonUser', 'trafficLowUser', 'subscriptionUser'],
-        // element 的图片资源
-        elementImg: 'https://github.com/dc8683/picx-images-hosting/raw/master/rocket/game-machine.3rbf9panfp.webp',
-        // 背景模式，'blurImg' | 'none' , 'blurImg' 为以 elementImg 来模糊背景，none 则不处理
-        backgroundMode: 'none',
+     // 组件类型: 'element' | 'wallet' | 'traffic' | 'plan'
+    // element: 元素组件，需要配置元素图片
+    // wallet: 钱包组件，会展示佣金、余额和充值按钮
+    // traffic: 流量统计组件，会展示流量使用详情
+    // plan: 推荐套餐组件，会展示推荐套餐
+    newUser: "plan", // 新用户显示什么组件
+    unsubscribedUser: "plan", // 从未订阅过的用户显示什么组件
+    expiredUser: "plan", // 订阅已过期的用户显示什么组件
+    trafficEmptyUser: "traffic", // 流量已用完的用户显示什么组件
+    expirySoonUser: "plan", // 订阅快到期的用户显示什么组件
+    trafficLowUser: "traffic", // 流量快用完的用户显示什么组件
+    subscriptionUser: "element", // 订阅中的正常用户显示什么组件
+    // plan 组件推荐套餐配置，前提是上面配置中对应的用户状态下的组件是 plan
+    // 每一个 ID 都会影响按钮点击最终跳转的套餐下单页，ID 为 0 则是他购买过的套餐
+    planId: {
+      newUser: 1, // 新用户的推荐套餐 ID
+      unsubscribedUser: 1, // 从未订阅过的用户推荐套餐 ID
+      expiredUser: 1, // 订阅已过期的用户推荐套餐 ID
+      trafficEmptyUser: 1, // 流量已用完的用户推荐套餐 ID
+      expirySoonUser: 1, // 订阅快到期的用户推荐套餐 ID
+      trafficLowUser: 1, // 流量快用完的用户推荐套餐 ID
+      subscriptionUser: 1, // 订阅中的正常用户推荐套餐 ID
     },
-
+    // 购买/续费按钮什么用户状态下显示，可填入多个，例如流量快用完和订阅快到期的用户都显示购买按钮，可以填入 ['trafficLowUser', 'expirySoonUser']
+    // 可选值有  "newUser" | "expiredUser" | "trafficEmptyUser" | "expirySoonUser" | "trafficLowUser" | "subscriptionUser" | "unsubscribedUser"
+    // Tips: 如果对应的用户状态标签你设置了 plan 组件，那么就不建议你在这里设置购买按钮了，因为 plan 组件本身就有购买按钮
+    buyButton: [
+      "expiredUser",
+      "trafficEmptyUser",
+      "expirySoonUser",
+      "trafficLowUser",
+    ],
+    // element 的图片资源
+    elementImg:
+      "./rocket/game-machine.3rbf9panfp.webp",
+    // 背景模式，'blurImg' | 'none' , 'blurImg' 为以 elementImg 来模糊背景，none 则不处理
+    backgroundMode: "none",
+  },
+ 
   quick: {
     elementImg:
       "./rocket/earth_purple.70akxwkmcb.webp", // 元素图片
