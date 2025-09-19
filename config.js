@@ -512,13 +512,13 @@ welcomeCard: {
         // plan 组件推荐套餐配置，前提是上面配置中对应的用户状态下的组件是 plan
         // 每一个 ID 都会影响按钮点击最终跳转的套餐下单页，ID 为 0 则是他购买过的套餐
         planId: {
-            newUser: 1, // 新用户的推荐套餐 ID
-            unsubscribedUser: 1, // 从未订阅过的用户推荐套餐 ID
-            expiredUser: 1, // 订阅已过期的用户推荐套餐 ID
-            trafficEmptyUser: 1, // 流量已用完的用户推荐套餐 ID
-            expirySoonUser: 1, // 订阅快到期的用户推荐套餐 ID
-            trafficLowUser: 1, // 流量快用完的用户推荐套餐 ID
-            subscriptionUser: 1, // 订阅中的正常用户推荐套餐 ID
+            newUser: 10, // 新用户的推荐套餐 ID
+            unsubscribedUser: 10, // 从未订阅过的用户推荐套餐 ID
+            expiredUser: 10, // 订阅已过期的用户推荐套餐 ID
+            trafficEmptyUser: 10, // 流量已用完的用户推荐套餐 ID
+            expirySoonUser: 10, // 订阅快到期的用户推荐套餐 ID
+            trafficLowUser: 10, // 流量快用完的用户推荐套餐 ID
+            subscriptionUser: 10, // 订阅中的正常用户推荐套餐 ID
         },
         // 购买/续费按钮什么用户状态下显示，可填入多个，例如流量快用完和订阅快到期的用户都显示购买按钮，可以填入 ['trafficLowUser', 'expirySoonUser']
         // 可选值有  "newUser" | "expiredUser" | "trafficEmptyUser" | "expirySoonUser" | "trafficLowUser" | "subscriptionUser" | "unsubscribedUser"
