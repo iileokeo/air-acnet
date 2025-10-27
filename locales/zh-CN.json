@@ -294,7 +294,7 @@
               "list": "流量: 10GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: BGP/中继隧道\n节点: 亚洲/欧洲/北美 地区节点",
               "title": "套餐特点"
             },
-            "name": "Air ACnet 10GB",
+            "name": "Air ACnet 10GB-Vmess",
             "price": "68",
             "priceTime": "永久",
             "sid": "8"
@@ -305,7 +305,7 @@
               "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: BGP/中继隧道\n节点: 亚洲/欧洲/北美 地区节点",
               "title": "套餐特点"
             },
-            "name": "Air ACnet 30GB",
+            "name": "Air ACnet 30GB-Vmess",
             "price": "118",
             "priceTime": "永久",
             "sid": "6"
@@ -316,7 +316,7 @@
               "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: BGP/中继隧道\n节点: 亚洲/欧洲/北美 地区节点",
               "title": "套餐特点"
             },
-            "name": "Air ACnet 100GB",
+            "name": "Air ACnet 100GB-Vmess",
             "price": "318",
             "priceTime": "永久",
             "sid": "4"
