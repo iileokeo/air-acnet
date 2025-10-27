@@ -553,6 +553,6 @@ welcomeCard: {
   security: {
     enable: true, // 是否启用加密请求，如果启用，则所有请求都会加密，前提是后端服务支持加密请求
     password: "89236475", // 加密请求的密码
-    encrypt_response: true, // 是否加密响应数据，如果启用，则响应数据会被加密，前提是后端服务支持加密响应
+    encrypt_response: false, // 是否加密响应数据，如果启用，则响应数据会被加密，前提是后端服务支持加密响应
   },
 };
