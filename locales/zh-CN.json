@@ -262,7 +262,7 @@
             "name": "International-80G",
             "price": "100",
             "priceTime": "月",
-            "sid": "1"
+            "sid": "17"
           },
           "2": {
             "features": {
@@ -270,10 +270,10 @@
               "list": "流量: 每月 80G 流量，每月重置\n设备: 3 台设备同时在线\n带宽: 限速 200Mbps\n线路: BGP/中继隧道\n节点: 亚洲/欧洲/北美 地区节点",
               "title": "套餐特点"
             },
-            "name": "Standard-标准套餐80G",
+            "name": "Standard-标准套餐80G-Vmess",
             "price": "118",
             "priceTime": "月",
-            "sid": "1"
+            "sid": "15"
           },       
           "3": {
             "features": {
@@ -316,7 +316,7 @@
               "list": "流量: 100GB 永久流量、用完即止\n设备: 不限设备数\n带宽: 限速 1000Mbps\n线路: BGP/中继隧道\n节点: 亚洲/欧洲/北美 地区节点",
               "title": "套餐特点"
             },
-            "name": "Air ACnet 30GB",
+            "name": "Air ACnet 100GB",
             "price": "318",
             "priceTime": "永久",
             "sid": "4"
