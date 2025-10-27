@@ -297,7 +297,7 @@ window.CONFIG = {
     sort: "cycle", // 优先显示套餐列表: cycle 周期套餐列表，flow 流量套餐列表
     deduct_enable: false, // 是否开启折抵，和后台 - 系统设置 - 订阅 - 是否开启折抵同步，由于后端折抵开关配置并未向前端传递，因此这里需要手动配置同步和后台中的配置
     cycle: {
-      primary_plan: 1, // 订阅套餐列表中默认高亮显示的套餐 ID，null 为不高亮显示
+      primary_plan: 15, // 订阅套餐列表中默认高亮显示的套餐 ID，null 为不高亮显示
       feature: {
         max_num: 3, // 卡片中显示的特性数量，超过此数量的特性将被隐藏，需要 hover 查看更多，0 为全部显示
       },
@@ -512,13 +512,13 @@ welcomeCard: {
     // plan 组件推荐套餐配置，前提是上面配置中对应的用户状态下的组件是 plan
     // 每一个 ID 都会影响按钮点击最终跳转的套餐下单页，ID 为 0 则是他购买过的套餐
     planId: {
-      newUser: 1, // 新用户的推荐套餐 ID
+      newUser: 15, // 新用户的推荐套餐 ID
       unsubscribedUser: 1, // 从未订阅过的用户推荐套餐 ID
       expiredUser: 1, // 订阅已过期的用户推荐套餐 ID
-      trafficEmptyUser: 1, // 流量已用完的用户推荐套餐 ID
-      expirySoonUser: 1, // 订阅快到期的用户推荐套餐 ID
-      trafficLowUser: 1, // 流量快用完的用户推荐套餐 ID
-      subscriptionUser: 1, // 订阅中的正常用户推荐套餐 ID
+      trafficEmptyUser: 16, // 流量已用完的用户推荐套餐 ID
+      expirySoonUser: 15, // 订阅快到期的用户推荐套餐 ID
+      trafficLowUser: 16, // 流量快用完的用户推荐套餐 ID
+      subscriptionUser: 15, // 订阅中的正常用户推荐套餐 ID
     },
     // 购买/续费按钮什么用户状态下显示，可填入多个，例如流量快用完和订阅快到期的用户都显示购买按钮，可以填入 ['trafficLowUser', 'expirySoonUser']
     // 可选值有  "newUser" | "expiredUser" | "trafficEmptyUser" | "expirySoonUser" | "trafficLowUser" | "subscriptionUser" | "unsubscribedUser"
